@@ -12,7 +12,7 @@ const ContactMe = () => {
         </div>
         <div>
           <form
-            action="https://getform.io/f/1c423b10-9dfb-40ab-a6d1-ead536d4f716"
+            action="https://getform.io/f/be685cc7-0c6e-48a0-8afc-78e0c67c6c60"
             method="POST"
             className="flex flex-col w-full lg:w-6/10"
           >
