@@ -15,14 +15,14 @@ const Home = () => {
             Backend Developer / Frontend Developer job opportunities.
           </p>
           <div>
-            <button className="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-textColor via-[#cacaca] to-[#2f2f2f] duration-200 hover:scale-105 cursor-pointer">
-              <Link to="portfolio" smooth duration={500}>
+            <Link to="portfolio" smooth duration={500}>
+              <button className="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-textColor via-[#cacaca] to-[#2f2f2f] duration-200 hover:scale-105 cursor-pointer">
                 Portfolio
-              </Link>
-              <span className="hidden md:flex group-hover:rotate-90 duration-200">
-                <MdOutlineKeyboardArrowRight size={20} />
-              </span>
-            </button>
+                <span className="hidden md:flex group-hover:rotate-90 duration-200">
+                  <MdOutlineKeyboardArrowRight size={20} />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
