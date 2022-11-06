@@ -71,7 +71,7 @@ const SocialLinks = () => {
           })}
         </ul>
       </div>
-      {/* <div className="flex md:hidden flex-col"> */}
+
       <div name="contact" className="pt-20 w-full bg-background text-textColor">
         <div className="flex md:hidden flex-col max-w-screen-lg p-4 mx-auto justify-between items-center w-10/12 h-full">
           <span className="flex">
