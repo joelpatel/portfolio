@@ -47,7 +47,7 @@ const Portfolio = () => {
         </span>
       ),
       description:
-        "Using Node.js, Express.js & WebSockets, built RESTful APIs for an image based social media system.",
+        "Using Node.js, Express.js & WebSockets, built RESTful APIs for an image based social media platform.",
       lineStyle: lineStyle,
       codeLink: "https://github.com/joelpatel/nodejs-course/tree/27-websockets",
     },
