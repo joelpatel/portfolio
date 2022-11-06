@@ -208,7 +208,7 @@ const Portfolio = () => {
     },
     {
       id: 11,
-      title: "Bitcoing Price Tracker",
+      title: "Bitcoin Price Tracker",
       dates: (
         <span className="inline-flex justify-start items-center">
           <span className="mr-2">2020</span>
