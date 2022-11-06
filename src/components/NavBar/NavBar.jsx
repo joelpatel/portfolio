@@ -72,7 +72,18 @@ const NavBar = () => {
                 className="px-4 cursor-pointer capitalize my-6 text-4xl"
                 key={id}
               >
-                <Link to={link} smooth duration={500}>
+                <Link
+                  onClick={() => {
+                    setTimeout(() => {
+                      setHamburger((prevState) => {
+                        return !prevState;
+                      });
+                    }, 250);
+                  }}
+                  to={link}
+                  smooth
+                  duration={500}
+                >
                   {link}
                 </Link>
               </li>
