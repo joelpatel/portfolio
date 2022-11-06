@@ -135,7 +135,7 @@ const Portfolio = () => {
       ),
       lineStyle: lineStyle,
       codeLink:
-        "https://github.com/joelpatel/computer-vision-background-stitching-image-panorama/blob/main/t2.py",
+        "https://github.com/joelpatel/computer-vision-background-stitching-image-panorama",
     },
     {
       id: 8,
