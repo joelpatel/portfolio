@@ -17,7 +17,7 @@ const Portfolio = () => {
         </>
       ),
       description:
-        "Developed and Deployed a Decentralized Web Application (Web3.0) using which people can donate to help disasters around the world. Enforcing blockchain to make donation history and usage info. public.",
+        "Developed and Deployed a Decentralized Web Application (Web3.0) using which people can donate to help in relief efforts around the world. Enforcing blockchain to make donation history and usage info. public.",
       demoLink: "https://drfms-web3.web.app",
       lineStyle: lineStyle,
     },
@@ -47,7 +47,7 @@ const Portfolio = () => {
         </span>
       ),
       description:
-        "Using Node.js, Express.js & WebSockets, built RESTful APIs for a image-posts based social media system.",
+        "Using Node.js, Express.js & WebSockets, built RESTful APIs for an image based social media system.",
       lineStyle: lineStyle,
       codeLink: "https://github.com/joelpatel/nodejs-course/tree/27-websockets",
     },
@@ -62,7 +62,7 @@ const Portfolio = () => {
         </span>
       ),
       description:
-        "Developed and Deployed a Web3.0 web application using which people can donate to help disasters around the world. Enforcing blockchain to make donation history and usage info. public.",
+        "Developed a DeFi system to transfer ethers along with a message. The UI shows a GIF of the keyword used at the time of the transaction.",
       demoLink: "https://krypto-dapp.web.app/",
       lineStyle: lineStyle,
       codeLink: "https://github.com/joelpatel/eth-web3-defi",
@@ -79,11 +79,11 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          Developed various of software components to fetch Bitcoin transactions
-          and perform Motif based analysis to identify fradualent transactions
+          Developed various software components to fetch Bitcoin transactions
+          and perform Motif based analysis to identify fraudulent transactions
           like money laundering. We fetched <strong>1 million</strong>{" "}
-          transactions and performed analysis. Milestone reached was to group
-          various wallet addresses of users which ideally is NOT possible as
+          transactions and performed analysis. The milestone reached was to
+          group various wallet addresses of users, ideally is NOT possible as
           Bitcoin does not show owners of wallets.
         </>
       ),
@@ -105,9 +105,9 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          Designed and Developed a single threaded database management system
-          using C++11. Implemented B+Tree Indexes to increase speed of fetching
-          data from the database. <br />
+          Designed and Developed a single-threaded database management system
+          using C++11. Implemented B+Tree Indexes to increase the speed of
+          fetching data from the database. <br />
           By far the <strong>hardest</strong> project.
         </>
       ),
@@ -125,11 +125,12 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          I wrote 2 python scripts, first to merge 2 images having common
+          I wrote 2 python scripts, first to merge 2 images having a common
           background and remove the foreground noise. And second to perform
-          image stitching on images having some overlapping features. Used SIFT
-          to detect local features and implement my own homography algorithm. I
-          applied blending to blend images seamlessly.
+          image stitching on images having some overlapping features. I used
+          SIFT to detect local features and implemented my homography algorithm
+          without using any OpenCV functions. I applied blending to blend images
+          seamlessly.
         </>
       ),
       lineStyle: lineStyle,
@@ -148,7 +149,7 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          I built the Authentication, Routing and Therapist Model parts of the
+          I built the Authentication, Routing, and Therapist Model parts of the
           frontend of a platform which combines multi-dimensional insights from
           sources such as people’s social media presence, psychological
           questionnaires, and therapist conversations to provide an effective
@@ -174,11 +175,11 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          I developed a publisher subscriber distributed system using{" "}
-          <strong>Kafka</strong>. Multiple brokers, multiple paritions, and
+          I developed a publisher-subscriber distributed system using{" "}
+          <strong>Kafka</strong>. Multiple brokers, multiple partitions, and
           multiple topics. Used GraphQL for Authentication APIs, and REST &
           WebSocket APIs for data fetching. I also implemented a similar broker
-          network from scratch without kafka.
+          network from scratch without Kafka.
         </>
       ),
       lineStyle: lineStyle,
@@ -217,7 +218,7 @@ const Portfolio = () => {
       ),
       description: (
         <>
-          I built an iOS application to get Bitcoin price in all major
+          I built an iOS application to get Bitcoin prices in all major
           currencies.
         </>
       ),
@@ -237,10 +238,11 @@ const Portfolio = () => {
       description: (
         <>
           I was part of a team. We built an Automatic Attendance taking System
-          using Computer Vision, viz. LBPH. I built the ML model which takes
-          images of students and trains to identify them using CCTV cameras, the
-          admins application which can be used to retrain the model plus do some
-          operational tasks like approving attendance manually and so on.
+          using Computer Vision, viz. LBPH algorithm. I built the ML model which
+          takes in images of students and trains to identify them using CCTV
+          cameras, the admin's application which can be used to retrain the
+          model plus do some operational tasks like approving attendance
+          manually and so on.
         </>
       ),
       codeLink: "https://github.com/joelpatel/automatic-attendance-system",
