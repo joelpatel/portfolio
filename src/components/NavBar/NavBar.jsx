@@ -35,7 +35,7 @@ const NavBar = () => {
       className={`${styles["unselectable"]} flex justify-between items-center w-full h-20 px-4 z-50 bg-background-dark text-textColor fixed`}
     >
       <div>
-        <h1 className="ml-2 text-5xl font-signature">Joel</h1>
+        <h1 className="ml-2 text-5xl font-bold">Joel</h1>
       </div>
 
       <ul className="hidden md:flex">
