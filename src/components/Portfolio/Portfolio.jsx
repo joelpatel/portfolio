@@ -69,6 +69,26 @@ const Portfolio = () => {
     },
     {
       id: 5,
+      title: "AWS Lambda DynamoDB REST APIs",
+      dates: (
+        <span className="inline-flex justify-start items-center">
+          <span className="mr-2">05 - 2022</span>
+          <BsArrowRight className="mr-2" color="textGray" size={10} />{" "}
+          <span className="mr-2">05 - 2022</span>
+        </span>
+      ),
+      description: (
+        <>
+          Built a serverless function to store and retrieve list of users from
+          DynamoDB.
+        </>
+      ),
+      lineStyle: lineStyle,
+      codeLink:
+        "https://github.com/joelpatel/go-serverless-aws-lambda-dynamodb",
+    },
+    {
+      id: 6,
       title: "Bitcoin Blockchain Money Laundering Analysis",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -94,7 +114,7 @@ const Portfolio = () => {
         "https://drive.google.com/drive/u/1/folders/1pSTsXYrQdwnT0JgNN9Sp_URPzT7DH0k0",
     },
     {
-      id: 6,
+      id: 7,
       title: "SQL Database Management System",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -114,7 +134,7 @@ const Portfolio = () => {
       lineStyle: lineStyle,
     },
     {
-      id: 7,
+      id: 8,
       title: "Image Stitching & Foreground Removal",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -138,7 +158,7 @@ const Portfolio = () => {
         "https://github.com/joelpatel/computer-vision-background-stitching-image-panorama",
     },
     {
-      id: 8,
+      id: 9,
       title: "Aarogya",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -164,7 +184,7 @@ const Portfolio = () => {
         "https://drive.google.com/file/d/1eRoD1NxIJ9lrnAxycgfR7Nu8-m0fHQO8/view",
     },
     {
-      id: 9,
+      id: 10,
       title: "Kafka Pub-Sub Distributed System",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -188,7 +208,7 @@ const Portfolio = () => {
         "https://github.com/joelpatel/Kafka-Distributed-Pub-Sub-System/blob/master/Documentation/Documentation.pdf",
     },
     {
-      id: 10,
+      id: 11,
       title: "Weather App",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -207,7 +227,7 @@ const Portfolio = () => {
       codeLink: "https://github.com/joelpatel/Weather-App",
     },
     {
-      id: 11,
+      id: 12,
       title: "Bitcoin Price Tracker",
       dates: (
         <span className="inline-flex justify-start items-center">
@@ -226,7 +246,7 @@ const Portfolio = () => {
       codeLink: "https://github.com/joelpatel/Bitcoin-Price-Tracker",
     },
     {
-      id: 12,
+      id: 13,
       title: "Automatic Attendance System",
       dates: (
         <span className="inline-flex justify-start items-center">
