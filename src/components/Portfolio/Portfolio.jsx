@@ -34,7 +34,7 @@ const Portfolio = () => {
         </>
       ),
       description:
-        "Developed and Deployed a Decentralized Web Application (Web3.0) using which people can donate to help in relief efforts around the world. Enforcing blockchain to make donation history and usage info. public.",
+        "Developed and Deployed a Decentralized Web Application (Web3.0) using which people can donate to help in relief efforts around the world. Enforcing blockchain to make donation history and usage info. public. Additionally, implemented a trading system to trade Ethers with our custom ERC20 token (PSH), using which users can donate tokens.",
       demoLink: "https://drfms-web3.web.app",
       lineStyle: lineStyle,
     },
