@@ -6,13 +6,30 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: "Credentials",
+      dates: (
+        <>
+          <span className="inline-flex justify-start items-center">
+            <span className="mr-2">12 - 01 - 2022</span>
+            <BsArrowRight className="mr-2" color="textGray" size={10} />{" "}
+            <span className="mr-2">12 - 14 - 2022</span>
+          </span>
+        </>
+      ),
+      description:
+        "Built a fullstack cloud native web app using React, Go, AWS Lambda, AWS DynamoDB, AWS API Gateway, Bootstrap, Firebase to manage passwords by leveraging AES Encryption to store credentials securely.",
+      demoLink: "https://credentials-enc.web.app/",
+      lineStyle: lineStyle,
+    },
+    {
+      id: 2,
       title: "Disaster Relief Funds Management System",
       dates: (
         <>
           <span className="inline-flex justify-start items-center">
             <span className="mr-2">09 - 01 - 2022</span>
             <BsArrowRight className="mr-2" color="textGray" size={10} />{" "}
-            <span className="mr-2">present</span>
+            <span className="mr-2">12 - 04 - 2022</span>
           </span>
         </>
       ),
@@ -20,21 +37,6 @@ const Portfolio = () => {
         "Developed and Deployed a Decentralized Web Application (Web3.0) using which people can donate to help in relief efforts around the world. Enforcing blockchain to make donation history and usage info. public.",
       demoLink: "https://drfms-web3.web.app",
       lineStyle: lineStyle,
-    },
-    {
-      id: 2,
-      title: "Json Web Token REST APIs",
-      dates: (
-        <span className="inline-flex justify-start items-center">
-          <span className="mr-2">10 - 18 - 2022</span>
-          <BsArrowRight className="mr-2" color="textGray" size={10} />{" "}
-          <span className="mr-2">10 - 27 - 2022</span>
-        </span>
-      ),
-      description:
-        "Built JWT-empowered RESTful APIs using Golang and Gin Web Framework to Authenticate users and Authorize them to particular resources.",
-      lineStyle: lineStyle,
-      codeLink: "https://github.com/joelpatel/go-jwt",
     },
     {
       id: 3,
