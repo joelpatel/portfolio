@@ -113,7 +113,7 @@ const Portfolio = () => {
       codeLink:
         "https://github.com/orgs/UB-CSE-640-Blockchain-Analysis/repositories",
       docLink:
-        "https://drive.google.com/drive/u/1/folders/1pSTsXYrQdwnT0JgNN9Sp_URPzT7DH0k0",
+        "https://drive.google.com/drive/u/1/folders/1RANKMPalVbOk7pO7Z0BvdvBUlHbNmGhf",
     },
     {
       id: 7,
