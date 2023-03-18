@@ -10,9 +10,10 @@ const Home = () => {
             I'm a Full Stack Developer.
           </h2>
           <p className="text-textGray font-extralight py-4 max-w-lg md:max-w-4xl">
-            I am in the final semester of my Masters degree in Computer Science.
-            Actively seeking for Software Engineer / Full Stack Developer /
-            Backend Developer / Frontend Developer job opportunities.
+            Software Engineer {"(II)"} at iMedia Brands, working on Ad Tech
+            domain.
+            <br />
+            Graduated from University at Buffalo.
           </p>
           <div>
             <Link to="portfolio" smooth duration={500}>
